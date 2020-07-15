@@ -13235,13 +13235,14 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Main-Findings">Main Findings<a class="anchor-link" href="#Main-Findings">&#182;</a></h1><ul>
-<li>During data exploration and the subsequent data explanation notebooks the most significant finding was a large variability in patronage of the Ford GoBike / Lyft Bay Wheels service</li>
+<li>During data exploration and the subsequent data explanation notebooks the most significant finding was a large variability in patronage of the bike hire service</li>
 <li>Some of this could be linked to availability of e-bikes and to pricing changes</li>
-<li>This culminated in what looks like a drastic downturn in the usage for the final month of the data, March 2020</li>
-<li>The data analysis is presented in this slide show, which initially examines  information about the fluctuations and downturn of patronage using trip counts analysis, and in its conclusion by using geographical analysis.</li>
+<li>A drastic downturn in the usage occurred in March 2020</li>
+<li>The data analysis is presented in this slide show, which initially examines  information about the fluctuations and downturn of patronage using trip counts analysis, and in its conclusion by using geographical analysis</li>
 <li>Along the way the presentation includes data analysis of the main data points, so that a clear picture emerges of customer demographics</li>
-<li>It can be understood that the most important users are Subscribers, and that at the end of the available data they have deserted the service in large numbers</li>
+<li>It can be understood that the most important users are Subscribers, and that at the end of the available data their usage has drastically altered</li>
 <li>The concluding example in the analysis demonstrates the downturn in subscriber numbers by comparing images and numbers of trip information for three Wednesdays in March - one each in 2018, 2019 and 2020. It shows that the 2020 subscriber numbers at 1,847 are half those of the 2018 numbers which were at 3,622, and a quarter of of the preceding 2019 year which were at 8,152. </li>
+<li>The reasons for decreased patronage are considered to be in relation to announcements of subscription price hikes, but the unexpected outside cause is the announcement on March 16th that "Residents must shelter in place in Northern California" due to coronavirus!</li>
 </ul>
 
 </div>
@@ -13586,6 +13587,30 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>However, there is a definite additional cause for the downturn - <strong>coronavirus</strong>. This is from the San Francisco Chronicle on March 16th:</li>
+</ul>
+<blockquote><p>Six Bay Area counties announced "shelter in place" orders for all residents on Monday — the strictest measure of its kind yet in the continental United States — directing everyone to stay inside their homes and away from others as much as possible for the next three weeks in a desperate move to curb the rapid spread of coronavirus across the region.
+ 
+The directive was set to begin at 12:01 a.m. Tuesday and involves San Francisco, Santa Clara, San Mateo, Marin, Contra Costa and Alameda counties — a combined population of more than 6.7 million. It is to stay in place until at least April 7. The three other Bay Area counties — Sonoma, Solano and Napa — did not issue similar mandates.
+ 
+Just outside the Bay Area, Santa Cruz County late Monday also announced a "shelter in place" order for its 275,000 residents.</p>
+</blockquote>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="March-16th-2020---Californian-counties-to-&quot;shelter-in-place&quot;...">March 16th 2020 - Californian counties to "shelter in place"...<a class="anchor-link" href="#March-16th-2020---Californian-counties-to-&quot;shelter-in-place&quot;...">&#182;</a></h3><p><img src="images/counties_closed.png" alt="counties closed"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="1.c-Trips-per-month-user-types">1.c Trips per month user types<a class="anchor-link" href="#1.c-Trips-per-month-user-types">&#182;</a></h2><ul>
 <li>User type type shows that most are subscribers, rather than casual customers</li>
 <li>Subscribers show more marked decreases in subscription levels over the October to December months followed by an increase from January to February</li>
@@ -13795,6 +13820,7 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <li>the uncharacteristic jump in subscriber trips on 1st March, which was a Sunday, could be a last round of rides on an expiring subscription</li>
 <li>the large jump of subscribers on this particular Sunday explains the increase in subscribers noted above in the weekly pattern for March</li>
 <li>after that numbers plummet for both type of user</li>
+<li>what is the reason for this fluctuation?</li>
 </ul>
 
 </div>
@@ -13854,22 +13880,14 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Trip-monthly-counts-conclusion">Trip monthly counts conclusion<a class="anchor-link" href="#Trip-monthly-counts-conclusion">&#182;</a></h1><h2 id="Are-Lyft-&quot;killing-the-golden-goose&quot;-in-San-Francisco?">Are Lyft "killing the golden goose" in San Francisco?<a class="anchor-link" href="#Are-Lyft-&quot;killing-the-golden-goose&quot;-in-San-Francisco?">&#182;</a></h2><ul>
+<h1 id="Trip-monthly-counts-conclusion">Trip monthly counts conclusion<a class="anchor-link" href="#Trip-monthly-counts-conclusion">&#182;</a></h1><h2 id="Are-Lyft-&quot;killing-the-golden-goose&quot;-in-San-Francisco,-or-is-it-something-worse?">Are Lyft "killing the golden goose" in San Francisco, or is it something worse?<a class="anchor-link" href="#Are-Lyft-&quot;killing-the-golden-goose&quot;-in-San-Francisco,-or-is-it-something-worse?">&#182;</a></h2><ul>
 <li>The majority of users are subscribers</li>
 <li>Subscribers are more clearly seasonal and allow their membership to lapse in winter months</li>
 <li>Fluctuating interest in the program seems to be linked to availability of e-bikes</li>
 <li>The re-introduction of e-bikes in later December 2019 was followed by a large increase of users, especially subscribers</li>
 <li>It is possible that the uncharacteristically high patronage that followed was due to people trying e-bikes before an impending price rise</li>
 <li>and, it is reasonable to infer that increased membership prices for e-bikes has led to a decreased patronage in March 2020</li>
-<li>The Lyft Financial <a href="https://investor.lyft.com/financial-information/quarterly-results">Quarterly Results</a> don't reveal any detail in relation to specific operations, <ul>
-<li>the results for this quarter (<a href="https://investor.lyft.com/news-releases/news-release-details/lyft-announces-first-quarter-results">Q1 2020</a>) are 23% increased over Q1 2019</li>
-</ul>
-</li>
-<li>Interestingly though, the <a href="https://investor.lyft.com/stock-information">Lyft stock chart</a> for 2019/20 (scroll down) shows similar trends in its share price to the SF numbers, <ul>
-<li>including a marked downwards trend in March 2020, </li>
-<li>but this is over the entire company, not just the bikeshare program in SF</li>
-</ul>
-</li>
+<li>However, we can definitely blame an extraordinary event for a downturn in Subscriber activity - the announcement on March 16th that residents must "shelter in place" in Northern California due to coronavirus!</li>
 </ul>
 
 </div>
@@ -13878,7 +13896,7 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="images/Lyft_stock_chart.PNG" alt="stock_chart"></p>
+<p><img src="images/shelter_in_place_small.png" alt="shelter in place"></p>
 
 </div>
 </div>
@@ -15479,7 +15497,7 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input_hidden">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[144]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">FacetGrid</span><span class="p">(</span><span class="n">df_age_gender</span><span class="p">,</span> <span class="n">row</span><span class="o">=</span><span class="s2">&quot;member_gender&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mf">4.3</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mf">2.7</span><span class="p">)</span>
@@ -16065,7 +16083,7 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <li>Comparing trip flows on <strong>Wednesday 18th March 2020</strong> vs <strong>Saturday 20th March 2020</strong></li>
 <li>Numbers have dropped considerably, only 2,029 on the Wednesday, less than a quarter of the 2019 figure; and 3,214 on Saturday - half of 2019's trips</li>
 <li>The expected commuting pattern is missing on Wednesday, instead it looks more like a Saturday though with a peak still around 5 p.m. </li>
-<li>Wednesday looks more like a day when people were using bikes for longer trips recreational around SF</li>
+<li>The Monday 16th "shelter in place" instruction has obviously affected commuting patterns, but these riders are certainly violating the instruction, many are covering large distances!</li>
 </ul>
 
 </div>
@@ -16091,9 +16109,9 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Three-Wednesdays">Three Wednesdays<a class="anchor-link" href="#Three-Wednesdays">&#182;</a></h2><ul>
-<li>Three Wednesdays in mid-March 2018, 2019 and 2020 show remarkable changes, especially when viewed as timelines</li>
+<li>Three Wednesdays in mid-March 2018, 2019 and 2020 show remarkable changes, especially when viewed as timelines in the previous slides </li>
 <li>Trip patterns look to have been mostly commuting in 2018 and 2019, and have doubled. </li>
-<li>But in 2020 the trip counts have fallen drastically and it seems more likely that bike riders are enjoying exploratory trips, rather than commuting, maybe reflecting a reaction to price rises</li>
+<li>But in 2020 the trip counts have fallen drastically and it seems more likely that bike riders are enjoying exploratory trips, rather than commuting, maybe reflecting a reaction to price rises, definitely from March 16th in response to coronavirus</li>
 <li>The figures:
 <pre><code>  2018-03-21: 4,036 riders: 3,622 Subscribers,   414 Customers
   2019-03-20: 9,265 riders: 8,152 Subscribers, 1,113 Customers
@@ -16134,8 +16152,8 @@ Assuming a 20 min one-way commute, that amounts to 6\$/day for MEMBERS. If a per
 <h1 id="6.-Conclusion">6. Conclusion<a class="anchor-link" href="#6.-Conclusion">&#182;</a></h1><ul>
 <li>The dataset is quite revealing of the fortunes of Ford GoBikes / Lyft Bay Wheels</li>
 <li>Bike usage seems to be linked somewhat to the availability of e-bikes</li>
-<li>There is a definite change for the worse towards the end of the period of the data - March 2020, which is likely in response to price hikes</li>
-<li>More analysis could be done!</li>
+<li>There is a definite change for the worse towards the end of the period of the data - March 2020, some of which is likely in response to price hikes</li>
+<li>However, the extraordinary event of the coronavirus must be factored in - on March 16th residents in all of these areas were told to "shelter in place", their normal daily commute was canceled!</li>
 </ul>
 
 </div>
