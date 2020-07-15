@@ -13235,10 +13235,11 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Main-Findings">Main Findings<a class="anchor-link" href="#Main-Findings">&#182;</a></h1><ul>
-<li>During data exploration and the subsequent data exploration notebooks the most significant finding was a large variability in patronage of the Ford GoBike and Lyft Bay Wheels service</li>
+<li>During data exploration and the subsequent data explanation notebooks the most significant finding was a large variability in patronage of the Ford GoBike / Lyft Bay Wheels service</li>
+<li>Some of this could be linked to availability of e-bikes and to pricing changes</li>
 <li>This culminated in what looks like a drastic downturn in the usage for the final month of the data, March 2020</li>
-<li>The current slide show presents this information in the initial part using trip counts analysis, and in the final geographical analysis</li>
-<li>Along the way the slide show presents significant data analysis of the main data points, so that a clear picture emerges of customer demographics</li>
+<li>The data analysis is presented in this slide show, which initially examines  information about the fluctuations and downturn of patronage using trip counts analysis, and in its conclusion by using geographical analysis.</li>
+<li>Along the way the presentation includes data analysis of the main data points, so that a clear picture emerges of customer demographics</li>
 <li>It can be understood that the most important users are Subscribers, and that at the end of the available data they have deserted the service in large numbers</li>
 </ul>
 
@@ -13248,12 +13249,27 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="The-Notebooks">The Notebooks<a class="anchor-link" href="#The-Notebooks">&#182;</a></h1><p>There are four notebooks involved, in order of their development:</p>
+<ol>
+<li><a href="https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataSetup.ipynb">Data\_Visualization\_Project_DataSetup.ipynb</a> - used to extract the data from the CSV files and save it into a SQLite database</li>
+<li><a href="https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExploration.ipynb">Data\_Visualization\_Project\_DataExploration.ipynb</a> - used to explore and describe the data, and to add features that aid analysis. The enhanced data is then saved into a new table in the database, ready for explanatory data analysis.</li>
+<li><a href="https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExplanation.ipynb">Data\_Visualization\_Project\_DataExplanation.ipynb</a> - used to conduct the explanatory data analysis an construct visuals, including various permutations of some of the charts.</li>
+<li><a href="https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExplanation_Slides.ipynb">Data\_Visualization\_Project\_DataExplanation\_Slides.ipynb</a> - a version of the exlpanatory notebook reorganized and dedicated to presenting the insights as a slide show.   </li>
+</ol>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Dataset-overview">Dataset overview<a class="anchor-link" href="#Dataset-overview">&#182;</a></h1><ul>
+<li>The data consists of aboput 5.8 million records, consisting of time, geographical and user-type information of individual trips, from June 2017 until March 2020. </li>
+<li>There is no subscriber identification and little customer-specific information, except for gender and birth year information collected from June 2017 to April 2019.</li>
 <li>Data was obtained from the <a href="https://s3.amazonaws.com/baywheels-data/index.html">archives</a> linked to from the <a href="https://www.fordgobike.com/system-data">System Data</a> page of the Lyft Bikes web site</li>
-<li>Data is between June 2017 to March 2020</li>
 <li>The data consists of a CSV file for the 2017 year, and zip files containing a CSV for each remaining month thereafter</li>
 <li>There are around 5.8 million rows in the data</li>
-<li>Data has been loaded, augmented and saved into a SQL Lite database as the table tripdata_fixed</li>
+<li>Data has been loaded, combined, augmented and saved into a SQL Lite database as the table tripdata_fixed</li>
 </ul>
 
 </div>

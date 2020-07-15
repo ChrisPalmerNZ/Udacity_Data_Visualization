@@ -21,12 +21,15 @@ The data analysis is presented in the form of a slide show, which initially exam
 
 Along the way the presentation includes data analysis of the main data points, so that a clear picture emerges of customer demographics.
 
-## Notebooks
+## Notebooks and Slide show
 
 There are four notebooks involved, in order of their development:
 
-1. Data\_Visualization\_Project_DataSetup.ipynb - used to extract the data from the CSV files and save it into a SQLite database
-2. Data\_Visualization\_Project\_DataExploration.ipynb - used to explore and describe the data, and to add features that aid analysis. The enhanced data is then saved into a new table in the database, ready for explanatory data analysis.
-3. Data\_Visualization\_Project\_DataExplanation.ipynb - used to conduct the explanatory data analysis an construct visuals, including various permutations of some of the charts.
-4. Data\_Visualization\_Project\_DataExplanation_Slides.ipynb - a version of the exlpanatory notebook reorganized and dedicated to presenting the insights as a slide show.   
+1. [Data\\_Visualization\\_Project_DataSetup.ipynb](https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataSetup.ipynb) - used to extract the data from the CSV files and save it into a SQLite database
+2. [Data\\_Visualization\\_Project\\_DataExploration.ipynb](https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExploration.ipynb) - used to explore and describe the data, and to add features that aid analysis. The enhanced data is then saved into a new table in the database, ready for explanatory data analysis.
+3. [Data\\_Visualization\\_Project\\_DataExplanation.ipynb](https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExplanation.ipynb) - used to conduct the explanatory data analysis an construct visuals, including various permutations of some of the charts.
+4. [Data\\_Visualization\\_Project\\_DataExplanation\\_Slides.ipynb](https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExplanation_Slides.ipynb) - a version of the exlpanatory notebook reorganized and dedicated to presenting the insights as a slide show.   
+5. [The slide show](https://github.com/ChrisPalmerNZ/Udacity_Data_Visualization/blob/master/Data_Visualization_Project_DataExplanation_Slides.slides.html)
+
+
 
